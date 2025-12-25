@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Lox.Interpreter.Tests/Lox.Interpreter.Tests.csproj" />
+  <Project Path="Lox.Interpreter/Lox.Interpreter.csproj" />
+</Solution>
