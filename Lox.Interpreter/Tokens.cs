@@ -3,7 +3,7 @@ namespace Lox.Interpreter;
 /// <param name="Lexeme">Raw substring of the source code</param>
 /// <param name="Literal">The literal value represented by the token, if any</param>
 /// <param name="Position">The position of the token in the source code</param>
-public abstract record Token(string Lexeme, object Literal, TokenPosition Position);
+public abstract record Token(string Lexeme, object? Literal, TokenPosition Position);
 
 /*
  *  Single-character tokens
